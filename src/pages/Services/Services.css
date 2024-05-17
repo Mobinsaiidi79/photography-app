@@ -1,0 +1,33 @@
+.services{
+    width: 100%;
+
+}
+.services-header{
+    width: 100%;
+    position: relative;
+}
+.services-header__img{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+}
+.services-header__text{
+    width:100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 35vh;
+    color: var(--white-color);
+}
+.services-header__title{
+   font-size: 36px;
+    margin-bottom: -40px;
+}
+.services-header__subtitle{
+   font-size: 80px;
+   font-weight: 600;
+}

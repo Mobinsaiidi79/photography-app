@@ -1,0 +1,133 @@
+.footer {
+    background-color: #212529;
+    padding: 40px 25px;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #656262;
+    padding: 40px 0;
+}
+
+.footer-josanclick {
+    flex-basis: 25%;
+    color: #fff;
+}
+
+.footer-josanclick__header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.footer-josanclick__content-description {
+    line-height: 40px;
+}
+
+.footer-josanclick__socialMedia-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-josanclick__icon {
+    font-size: 24px;
+}
+
+
+.footer-navigation {
+    flex-basis: 20%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navigation__items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-navigation__item {
+    transition: all 400ms ease;
+}
+
+.footer-navigation__item:hover {
+    transform: scale(1.05);
+}
+
+.footer-Contact__items {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+.footer-Subscribe {
+    display: flex;
+    flex-basis: 30%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-Subscribe__header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-Subscribe__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-Subscribe__input {
+    padding: 20px;
+    background-color: #131314;
+    border: none;
+    color: #fff;
+    outline: none;
+
+}
+
+.footer-Subscribe__input::placeholder {
+    color: #fff;
+}
+
+
+.footer-Subscribe__btn {
+    padding: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-copyright__content{
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 954px) {
+    .footer-josanclick{
+        flex-basis: 100%;
+    }
+    .footer-navigation{
+        flex-basis: 50%;
+    }
+    .footer-Subscribe{
+        flex-basis: 50%;
+    }
+    
+}
