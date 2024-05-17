@@ -23,7 +23,6 @@
 .navbar-menu__items{
     display: flex;
     gap: 20px;
-    
 }
 .navbar-menu__item{
     font-weight: 600;
